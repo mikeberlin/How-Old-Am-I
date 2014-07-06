@@ -33,7 +33,7 @@
                                 <state key="selected"/>
                                 <state key="disabled"/>
                                 <connections>
-                                    <action selector="btnHowOldAmI_TouchUpInside:" destination="vXZ-lx-hvc" id="21" eventType="touchUpInside"/>
+                                    <action selector="btnHowOldAmI_TouchUpInside:" destination="vXZ-lx-hvc" id="27" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                         </subviews>

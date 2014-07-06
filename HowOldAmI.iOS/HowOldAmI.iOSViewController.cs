@@ -14,10 +14,7 @@ namespace HowOldAmI.iOS
 
 		public override void DidReceiveMemoryWarning ()
 		{
-			// Releases the view if it doesn't have a superview.
 			base.DidReceiveMemoryWarning ();
-			
-			// Release any cached data, images, etc that aren't in use.
 		}
 
 		#region View lifecycle
@@ -53,24 +50,19 @@ namespace HowOldAmI.iOS
 
 		partial void btnHowOldAmI_TouchUpInside (UIButton sender)
 		{
-			var ageDisplay = string.Format("You're {0} years old today.", HowOldAmI());
+			var ageDisplay = string.Format("You're {0} years young today.", HowOldAmI());
 
-			UIAlertView alert = new UIAlertView("Looking good!", ageDisplay, null, "Thanks!", null);
+			UIAlertView alert = new UIAlertView("Look at you!", ageDisplay, null, "Sweet!", null);
 			alert.Show();
 		}
 
 		private int HowOldAmI()
 		{
-			var selectedBirthday = DateTime.SpecifyKind (birthdayPicker.Date, DateTimeKind.Unspecified);
+			var selectedBirthday = DateTime.SpecifyKind (birthdayPicker.Date, DateTimeKind.Unspecified).Date;
+			var today = DateTime.Today;
 
-			/*
-			//assume 365.25 days per year for leap years
-			var daysDifference = (DateTime.Now - selectedBirthday).TotalDays;
-			double years = (int)Math.Floor(daysDifference / 365.25f);
-			*/
-
-			int years = (DateTime.Now.Year - selectedBirthday.Year);
-			if (selectedBirthday > DateTime.Now.AddYears(-years)) years--;
+			int years = (today.Year - selectedBirthday.Year);
+			if (selectedBirthday > today.AddYears(-years)) years--;
 
 			return years;
 		}

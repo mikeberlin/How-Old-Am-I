@@ -22,6 +22,10 @@ namespace HowOldAmI.iOS
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UIButton btnHowOldAmI { get; set; }
 
+		[Action ("btnHowOldAmI_TouchUpInside:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void btnHowOldAmI_TouchUpInside (UIButton sender);
+
 		void ReleaseDesignerOutlets ()
 		{
 			if (birthdayPicker != null) {
