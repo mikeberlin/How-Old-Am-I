@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowOldAmI.iOS", "HowOldAmI.iOS\HowOldAmI.iOS.csproj", "{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Release|iPhone.Build.0 = Release|iPhone
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{F464F9FE-2740-4C8B-85C1-2EEBEC46530A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = HowOldAmI.iOS\HowOldAmI.iOS.csproj
+	EndGlobalSection
+EndGlobal
