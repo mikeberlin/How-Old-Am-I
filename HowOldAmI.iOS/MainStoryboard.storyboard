@@ -33,7 +33,7 @@
                                 <state key="selected"/>
                                 <state key="disabled"/>
                                 <connections>
-                                    <action selector="btnHowOldAmI_TouchUpInside:" destination="vXZ-lx-hvc" id="27" eventType="touchUpInside"/>
+                                    <action selector="btnHowOldAmI_TouchUpInside:" destination="vXZ-lx-hvc" id="24" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -55,5 +55,10 @@
     </simulatedMetricsContainer>
     <resources>
         <image name="Default-568h.png" width="640" height="1136"/>
+        <image name="Icon-60.png" width="120" height="120"/>
+        <image name="Icon.png" width="114" height="114"/>
+        <image name="Icon-Small-40.png" width="80" height="80"/>
+        <image name="Icon-Small.png" width="58" height="58"/>
+        <image name="Default.png" width="640" height="960"/>
     </resources>
 </document>
